@@ -14,7 +14,7 @@ from app.utils.functions import *
 load_dotenv()
 
 AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN")
-AIPROXY_BASE_URL = "https://aiproxy.sanand.workers.dev/openai/v1"
+AIPROXY_BASE_URL = "https://aiproxy.sanand.workers.dev/"
 
 
 async def get_openai_response(question: str, file_path: Optional[str] = None) -> str:
